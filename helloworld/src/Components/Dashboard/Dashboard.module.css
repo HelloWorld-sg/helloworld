@@ -1,0 +1,19 @@
+.subscription {
+  margin: 2rem;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.subscription__header {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--gray-500);
+}
+
+.subscription__location {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 700;
+}
