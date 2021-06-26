@@ -1,0 +1,9 @@
+.card {
+  background-color: var(--gray-200);
+  padding: 1.6rem;
+  border-radius: 0.4rem;
+}
+
+.card p {
+  color: var(--gray-500);
+}
