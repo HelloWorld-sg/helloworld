@@ -1,0 +1,30 @@
+.send__icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.input {
+  border: none;
+  border-radius: 5rem;
+  flex-grow: 1;
+  padding: 1rem 1.2rem;
+}
+
+.input::placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.input__block {
+  background-color: var(--gray-300);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+  align-items: center;
+}

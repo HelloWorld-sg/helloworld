@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import icons from "../../../Assets/icons.svg";
+import { SignOut } from "../../../App";
 const Header = () => {
   return (
     <div className={styles.header}>

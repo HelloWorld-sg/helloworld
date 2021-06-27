@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 2rem 1rem 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-300);
+}
+
+.header__main {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.header__channel {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.header__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.info__icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
