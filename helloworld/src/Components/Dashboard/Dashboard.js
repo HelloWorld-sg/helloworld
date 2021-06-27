@@ -18,6 +18,7 @@ const Dashboard = (props) => {
       <ChannelPreview />
       <p className={styles.discover}>Discover more chats in your area...</p>
       <ChannelPreviewItem
+        type="manual"
         data={{
           photoURL:
             "https://tse3.mm.bing.net/th?id=OIP.oiFbJ-x8hQ_UrcoN6tiYtgHaE7&pid=Api&P=0&w=260&h=174",

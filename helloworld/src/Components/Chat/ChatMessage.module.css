@@ -5,6 +5,7 @@
   margin: 0.5rem;
   width: 65vw;
   font-size: 1.4rem;
+  position: relative;
 }
 
 .message {
@@ -23,4 +24,11 @@
 
 .received {
   justify-content: flex-start;
+}
+
+.message__time {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0.8rem;
 }
