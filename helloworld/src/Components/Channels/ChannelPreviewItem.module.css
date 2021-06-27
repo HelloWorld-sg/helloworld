@@ -32,6 +32,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .channel__join {

@@ -17,7 +17,7 @@ const ChannelPreviewItem = (props) => {
     getLastMessage();
   }, []);
 
-  if (!lastMessageData && !props.type) return <></>;
+  if (!lastMessageData && !props.type) return <div></div>;
   return (
     <div className={styles["preview__item"]}>
       <img className={styles["preview__image"]} src={props.data.photoURL}></img>
