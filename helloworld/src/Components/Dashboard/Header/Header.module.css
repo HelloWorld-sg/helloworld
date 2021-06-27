@@ -25,3 +25,22 @@
   height: 3rem;
   fill: var(--gray-500);
 }
+
+.rightPanel {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+  color: var(--gray-500);
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.27);
+  cursor: pointer;
+}

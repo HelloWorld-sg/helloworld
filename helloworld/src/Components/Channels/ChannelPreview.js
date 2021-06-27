@@ -12,6 +12,7 @@ const ChannelPreview = () => {
       </Link>
     );
   });
+
   return <div className={styles.preview}>{channelCards}</div>;
 };
 

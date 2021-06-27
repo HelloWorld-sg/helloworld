@@ -37,6 +37,43 @@
   }
 }
 
-.testing {
-  width: 100vw;
+.signIn__logo {
+  font-size: 5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: red;
+}
+
+.signIn__logo span {
+  color: black;
+}
+
+.signIn__block {
+  height: 80vh;
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.google__button {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.17);
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: var(--gray-500);
+  cursor: pointer;
+}
+
+.google__logo {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
 }

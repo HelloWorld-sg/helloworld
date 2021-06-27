@@ -6,9 +6,9 @@ const ChannelPreviewItem = (props) => {
       <img className={styles["preview__image"]} src={props.data.photoURL}></img>
       <div className={styles["channel__info"]}>
         <p className={styles["channel__header"]}>{props.data.title}</p>
-        <p className={styles["channel__message"]}>
+        {/* <p className={styles["channel__message"]}>
           <strong>Tom: </strong>Does anyone else feel homesick...
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -28,3 +28,9 @@
   gap: 1rem;
   align-items: center;
 }
+
+.submit {
+  border: none;
+  background-color: var(--gray-300);
+  cursor: pointer;
+}

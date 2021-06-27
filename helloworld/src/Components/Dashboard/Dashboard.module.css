@@ -28,3 +28,11 @@
   width: 100vw;
   height: 100vh;
 }
+
+.discover {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: var(--gray-500);
+  font-size: 1.4rem;
+  padding: 2rem;
+}

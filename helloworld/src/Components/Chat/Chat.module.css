@@ -1,0 +1,5 @@
+.message__list {
+  margin: 1rem 2rem;
+  height: 80vh;
+  overflow-y: scroll;
+}

@@ -2,7 +2,7 @@ import AnnoucementCard from "./AnnoucementCard";
 import styles from "./AnnoucementPreview.module.css";
 import icons from "../../../Assets/icons.svg";
 import Button from "../../UI/Button";
-
+import { Link } from "react-router-dom";
 const AnnoucementPreview = () => {
   return (
     <div className={styles.preview}>
@@ -17,7 +17,9 @@ const AnnoucementPreview = () => {
           There has been a recent increase in hate crimes against the local Asian communities in
           this area. We strongly advise all parties...
         </p>
-        <Button className={styles["preview__button"]}>Read more</Button>
+        <Link to="/annoucements">
+          <Button className={styles["preview__button"]}>Read more</Button>
+        </Link>
       </AnnoucementCard>
     </div>
   );

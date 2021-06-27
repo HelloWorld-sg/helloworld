@@ -18,6 +18,7 @@
 .channel__info {
   display: flex;
   flex-flow: column;
+  justify-content: center;
   gap: 0.5rem;
 }
 
